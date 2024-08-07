@@ -242,7 +242,7 @@ In this section, you WILL write functions that help analyze the HIV dataset. We'
 
 ## A) Simple Conditional Check for Missing Data
 
-In this step, you will write a function that checks if there are any missing values in the HIV dataset. This function should take a data frame (`data`) as an argument and return a message indicating whether there are missing values or not.
+In this step, you will write a function that checks if there are any missing values in the HIV dataset. This function should take a data frame (`df`) as an argument and return a message indicating whether there are missing values or not.
 
 ### Step 1: Define the Function
 
@@ -352,7 +352,7 @@ Let's make the `calculate_prevalence` function more flexible by adding an option
 
 Further modify the `calculate_prevalence` function to include the argument `round`. If `round` is set to `TRUE`, the function should round the prevalence rate to the **nearest whole number**. If `round` is not specified or `FALSE`, the function should leave the values as they are.
 
-*HINT: Use the `round()` function and a **conditional statement** to determine whether to round the values.*
+*HINT: Use the `round()` function and a conditional statement to determine whether to round the values.*
 
 ```{r}
 calculate_prevalence <- function(df, round = FALSE) {
@@ -429,9 +429,6 @@ Next, you’ll create a function called `highest_increase` that calculates the c
 
 ```{r}
 highest_increase <- function(df, ...) {
-  # Filter to total cases
-  _____________________________
-  
   # Calculate the increase in cases for each country
   _____________________________
   _____________________________
