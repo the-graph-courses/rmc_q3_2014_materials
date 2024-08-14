@@ -164,7 +164,7 @@ hiv_survey_data$disease_past_month_clean %>%
 
 *CHECKPOINT*: You should now have 17 unique diseases.
 
-## Question 3: Plotting and labelling
+## Question 3: Plotting and labeling
 
 The main objective of the study was to record any diseases noticed among these children, with a particular focus on diarrheal diseases and their possible causes. Water quality in each household was assessed by recording how often households washed the container used for the collection and transport of water (`water_container_washing_freq`).
 
@@ -193,7 +193,7 @@ Edit the axis labels and title of the plot.
 -   Remove the x and y axis labels.
 -   Add a title "Frequency of washing the container used for the collection and transport of household water"
 -   Wrap the title text so that it fits in the plot area.
--   Optional: edit the themes and color scheme of the plot to be more visually appealing. See "Q3b_example_plot.jpg" in the workshop project folder for inspiration.
+-   Optional: edit the themes and color scheme of the plot to be more visually appealing. See "*Q3b_example_plot.jpg*" in the workshop project folder for inspiration.
 
 ```{r}
 # Basic
