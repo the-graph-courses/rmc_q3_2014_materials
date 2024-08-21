@@ -45,10 +45,10 @@ pacman::p_load(tidyverse,
 
 # Data Importation
 
-We will work with two raw datasets, each containing estimates per country-year.
+We will work with two raw datasets, each containing estimates per country-year. These data were accessed from the Gapminder foundation, at [www.gapminder.org/data](https://www.gapminder.org/data){.uri}.
 
-1.  **People living with HIV:** This dataset contains the total number of people currently infected with HIV (*data/raw/people_living_with_hiv_number_all_ages.csv*).
-2.  **New HIV infections:** This dataset provides the total number of people newly infected with HIV during a given year (*data/raw/newly_hiv_infected_number_all_ages.csv*).
+1.  **People living with HIV:** This dataset contains the total number of people currently infected with HIV (*data/people_living_with_hiv_number_all_ages.csv*).
+2.  **New HIV infections:** This dataset provides the total number of people newly infected with HIV during a given year (*data/newly_hiv_infected_number_all_ages.csv*).
 
 ### Step 2: Load the Datasets
 
