@@ -330,7 +330,7 @@ pop_iso
 
 Now that we have the country's ISO codes, join the combined HIV data with the population data using the ISO codes.
 
-**HINT:** Ensure that you are joining on `country`, `country_iso` and `year` to accurately align the datasets.
+**HINT:** Ensure that you are joining on `country_iso` and `year` to accurately align the datasets.
 
 ```{r population-join}
 # Join HIV data with population data
@@ -339,7 +339,7 @@ final_dataset <- "WRITE_YOUR_CODE_HERE"
 final_dataset
 ```
 
-**CHECKPOINT:** The `final_dataset` should now include population data alongside the HIV case data, allowing for more detailed analysis. You should have a dataset with **3278 rows and 8 columns.**
+**CHECKPOINT:** The `final_dataset` should now include population data alongside the HIV case data, allowing for more detailed analysis. You should have a dataset with **3278 rows and 9 columns.**
 
 # Data Visualization
 
