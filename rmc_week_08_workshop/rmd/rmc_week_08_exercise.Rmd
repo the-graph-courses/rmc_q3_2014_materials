@@ -328,17 +328,21 @@ Let's add two layers:
 
 # Challenge (OPTIONAL)
 
-## Challenge 1: Joining & Filtering
+# Challenge Question 1: Per Capita Cases
 
-Create a choropleth map showing the total COVID-19 deaths for only the countries in **Western Africa**.
+Create a choropleth map showing the COVID-19 cases per capita for each African country. 
+
+**HINT:** Look for some up-to-date population data and import it into your RStudio to use for your per capita calculations.
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
 ```
 
-## Challenge 2: Per Capita Cases
+## Challenge 2: Joining & Filtering
 
-Create a choropleth map showing the COVID-19 cases per capita for each African country.
+Create a choropleth map showing the per capita COVID-19 cases OR deaths for only the countries in **Western Africa**.
+
+Create simple map 
 
 ```{r}
 "WRITE_YOUR_CODE_HERE"
