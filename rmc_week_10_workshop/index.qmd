@@ -1,0 +1,21 @@
+---
+title: "Influenza A H7N9 in China, 2013"
+format: dashboard
+theme: lux
+---
+
+```{r}
+# Load packages 
+if(!require(pacman)) install.packages("pacman")
+pacman::p_load(tidyverse, outbreaks, bslib, bsicons, shiny, 
+               rgeoboundaries, plotly, htmltools, reactable)
+
+# view data
+head(outbreaks::fluH7N9_china_2013)
+```
+
+# HOME 
+
+# DOWNLOAD DATA
+
+# ABOUT
